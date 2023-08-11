@@ -1,0 +1,343 @@
+{
+  "mod_elements": [
+    {
+      "name": "Go",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "go",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/GoItem.java",
+          "src/main/resources/assets/gochiken/models/item/go.json"
+        ]
+      }
+    },
+    {
+      "name": "GoChiken",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "go_chiken",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LogChikenenteiteinotitukuGengXinShi",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_chikenenteiteinotituku_geng_xin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/LogChikenenteiteinotitukuGengXinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LogChiken",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/entity/LogChikenEntity.java",
+          "src/main/resources/data/gochiken/forge/biome_modifier/log_chiken_biome_modifier.json",
+          "src/main/java/net/mcreator/gochiken/client/renderer/LogChikenRenderer.java",
+          "src/main/resources/assets/gochiken/models/item/log_chiken_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Netuto",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netuto",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/item/NetutoItem.java",
+          "src/main/resources/assets/gochiken/models/item/netuto.json"
+        ]
+      }
+    },
+    {
+      "name": "NetutomobugaaitemudeGongJisaretatoki",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netutomobugaaitemude_gong_jisaretatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/NetutomobugaaitemudeGongJisaretatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetutoYoukuritukusitatoki",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netuto_youkuritukusitatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/NetutoYoukuritukusitatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rnetuto",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rnetuto",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/rnetuto.json"
+        ]
+      }
+    },
+    {
+      "name": "SendChikenenteiteinotitukuGengXinShi",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_chikenenteiteinotituku_geng_xin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/SendChikenenteiteinotitukuGengXinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SendChiken",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/entity/SendChikenEntity.java",
+          "src/main/resources/data/gochiken/forge/biome_modifier/sand_chiken_biome_modifier.json",
+          "src/main/resources/assets/gochiken/models/item/sand_chiken_spawn_egg.json",
+          "src/main/java/net/mcreator/gochiken/client/renderer/SendChikenRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "WhiteChikenenteiteinotitukuGengXinShi",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_chikenenteiteinotituku_geng_xin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/WhiteChikenenteiteinotitukuGengXinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteChiken",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/client/renderer/WhiteChikenRenderer.java",
+          "src/main/java/net/mcreator/gochiken/entity/WhiteChikenEntity.java",
+          "src/main/resources/data/gochiken/forge/biome_modifier/white_chiken_biome_modifier.json",
+          "src/main/resources/assets/gochiken/models/item/white_chiken_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "FlintChikenenteiteinotitukuGengXinShi",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_chikenenteiteinotituku_geng_xin_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/procedures/FlintChikenenteiteinotitukuGengXinShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlintChiken",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint_chiken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gochiken/entity/FlintChikenEntity.java",
+          "src/main/resources/assets/gochiken/models/item/flint_chiken_spawn_egg.json",
+          "src/main/resources/data/gochiken/forge/biome_modifier/flint_chiken_biome_modifier.json",
+          "src/main/java/net/mcreator/gochiken/client/renderer/FlintChikenRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Flint",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flint",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gochiken/recipes/flint.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.gochiken.sand_chiken_spawn_egg": "Sand Chiken Spawn Egg",
+      "item.gochiken.netuto": "ネット【空】",
+      "item.gochiken.log_chiken_spawn_egg": "Log Chiken Spawn Egg",
+      "entity.gochiken.sand_chiken": "Sand Chiken",
+      "entity.gochiken.log_chiken": "Log Chiken",
+      "itemGroup.tabgo_chiken": "Go Chiken",
+      "item.gochiken.white_chiken_spawn_egg": "White Chiken Spawn Egg",
+      "item.gochiken.flint_chiken_spawn_egg": "Flint Chiken Spawn Egg",
+      "item.gochiken.go": "Go",
+      "entity.gochiken.flint_chiken": "Flint Chiken",
+      "entity.gochiken.white_chiken": "White Chiken"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gochiken",
+    "modName": "GoChiken",
+    "version": "1.0.0",
+    "author": "Zenny, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.gochiken",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
